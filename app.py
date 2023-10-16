@@ -16,3 +16,4 @@ if __name__ == '__main__':
     httpd = HTTPServer(('localhost', 3000), SimpleHTTPRequestHandler)
     print("server running : http://localhost:3000/")
     httpd.serve_forever()
+    # 서버구축 예제
